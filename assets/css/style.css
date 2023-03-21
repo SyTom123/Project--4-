@@ -436,25 +436,30 @@ body {
 /* responsive */
 @media (max-width: 991.98px) {
   .my-modal__image {
-    max-width: 100%;
+    width: 100%;
     text-align: center;
+    margin-left: auto;
     margin-right: auto;
   }
   .my-modal__image2 img {
-    max-width: 100%;
+    max-width: 1000%;
   }
   .my-modal__image img {
-    width: 70%;
+    width: 80%;
     aspect-ratio: 4/3;
     object-fit: cover;
     height: auto;
   }
   .my-modal__content {
-    max-width: 500px;
-    padding-left: 0;
+    max-width: 600px;
   }
   .my-modal__text {
-    margin-left: 50px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  .my-modal__text {
+    margin-left: 0px;
   }
 }
 /* End responsive */
