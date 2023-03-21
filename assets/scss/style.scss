@@ -253,13 +253,15 @@ body{
 } 
 @media (max-width:575.98px){
     .store-template{
-        padding-top: 180px;
+        height: 950px;
+        padding-top: 165px;
         &__desc p{
             max-width: 100%;
             font-size: 18px;
         }
         &__title h1{
             font-size: 54px;
+            margin: 15px 0px 20px;
         }
     } 
 }
@@ -502,6 +504,10 @@ body{
 }
 @media (max-width: 575.98px){
     .my-modal{
+        &__content{
+            padding: 35px 15px;
+        }
+        
         &__text{
             margin-left: 0px;
         }

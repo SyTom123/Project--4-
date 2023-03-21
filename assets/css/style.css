@@ -229,7 +229,8 @@ body {
 }
 @media (max-width: 575.98px) {
   .store-template {
-    padding-top: 180px;
+    height: 950px;
+    padding-top: 165px;
   }
   .store-template__desc p {
     max-width: 100%;
@@ -237,6 +238,7 @@ body {
   }
   .store-template__title h1 {
     font-size: 54px;
+    margin: 15px 0px 20px;
   }
 }
 .shop-feature {
@@ -458,6 +460,9 @@ body {
   }
 }
 @media (max-width: 575.98px) {
+  .my-modal__content {
+    padding: 35px 15px;
+  }
   .my-modal__text {
     margin-left: 0px;
   }
