@@ -772,8 +772,8 @@ body {
 }
 .depotamp__icon {
   position: absolute;
-  top: calc(50% - 8px);
-  left: calc(50% - 8px);
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
   display: none;
 }
 .depotamp__icon i {
