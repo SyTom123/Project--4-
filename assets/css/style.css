@@ -442,7 +442,7 @@ body {
     margin-right: auto;
   }
   .my-modal__image2 img {
-    max-width: 1000%;
+    max-width: 100%;
   }
   .my-modal__image img {
     width: 80%;
@@ -460,6 +460,12 @@ body {
 @media (max-width: 575.98px) {
   .my-modal__text {
     margin-left: 0px;
+  }
+  .my-modal__desc {
+    font-size: 17px;
+  }
+  .my-modal ul {
+    font-size: 17px;
   }
 }
 /* End responsive */

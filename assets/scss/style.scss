@@ -482,7 +482,7 @@ body{
             
         }
         &__image2 img{
-            max-width: 1000%;
+            max-width: 100%;
         
         }
         &__image img{
@@ -504,6 +504,12 @@ body{
     .my-modal{
         &__text{
             margin-left: 0px;
+        }
+        &__desc{
+            font-size: 17px;
+        }
+        ul{
+            font-size: 17px;
         }
     }
 }
